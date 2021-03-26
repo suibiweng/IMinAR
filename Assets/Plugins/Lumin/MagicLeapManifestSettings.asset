@@ -34,13 +34,13 @@ MonoBehaviour:
       m_Enabled: 0
       m_Name: AudioRecognizer
     - m_ApiLevel: 1
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: CameraCapture
     - m_ApiLevel: 4
       m_Enabled: 0
       m_Name: CoarseLocation
     - m_ApiLevel: 5
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: ComputerVision
     - m_ApiLevel: 1
       m_Enabled: 0

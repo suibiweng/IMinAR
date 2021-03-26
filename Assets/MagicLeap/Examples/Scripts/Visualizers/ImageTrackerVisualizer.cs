@@ -26,8 +26,8 @@ namespace MagicLeap
         private MLImageTrackerBehavior _imageTracker = null;
 
         [SerializeField, Tooltip("The GameObject used to visualize the axes of the image target.")]
-        private GameObject _axis = null;
-        [SerializeField, Tooltip("The GameObject used to visualize the tracking cube of the image target.")]
+   //     private GameObject _axis = null;
+      //  [SerializeField, Tooltip("The GameObject used to visualize the tracking cube of the image target.")]
         private GameObject _trackingCube = null;
 
         /// <summary>
@@ -41,13 +41,13 @@ namespace MagicLeap
                 enabled = false;
                 return;
             }
-
+            /*
             if (_axis == null)
             {
                 Debug.LogError("Error: ImageTrackingVisualizer._axis is not set, disabling script.");
                 enabled = false;
                 return;
-            }
+            }*/
 
             if (_trackingCube == null)
             {
